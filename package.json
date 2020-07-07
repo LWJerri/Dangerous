@@ -1,0 +1,24 @@
+{
+  "name": "dangerous",
+  "version": "1.0.0",
+  "description": "Dangerous bot special for Dangerous Discord-server",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LWJerri/Dangerous.git"
+  },
+  "author": "LWJerri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LWJerri/Dangerous/issues"
+  },
+  "homepage": "https://github.com/LWJerri/Dangerous#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
