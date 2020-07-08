@@ -4,9 +4,9 @@
 
 <h1>How to use?</h1>
 <p>
-- Install Node.js v12. (<a href="https://nodejs.org/en/">Click :3</a>)<br>
-- Rename <b>example.settings.json</b> to <b>settings.json</b><br>
-- Setup <b>settings.json</b><br>
+- Install Node.js v12. (<a href="https://nodejs.org/en/">Click :3</a>).<br>
+- Rename <b>example.settings.json</b> to <b>settings.json</b>.<br>
+- Setup <b>settings.json</b>.<br>
 - Open cmd and run <b>npm install</b>.<br>
 - Run command <b>npm run start</b>.<br>
 - Ready 😜<br><br>
