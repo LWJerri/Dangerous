@@ -1,0 +1,19 @@
+{
+    "token": "",
+    "guildID": "",
+    "memesChat": "",
+    "status": "",
+    "startMessage": "",
+    "typeStatus": "",
+    "setDefault": true,
+    "reactGood": "",
+    "reactShit": "",
+    
+    "__comment": {
+        "$0": "Show bot username",
+        "$1": "Show guilds size",
+        "$2": "Show users size of all guilds",
+        "$3": "Show channels size of all guilds",
+        "$4": "Show main guild name"
+    }
+}
