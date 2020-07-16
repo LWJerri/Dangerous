@@ -28,4 +28,8 @@ bot.on("message", async message => {
     }
 });
 
+bot.on("guildMemberAdd", member => {
+    member.roles.add([process.env.JoinRoleOne, process.env.JoinRoleTwo]);
+});
+
 bot.login(process.env.token);
