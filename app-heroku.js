@@ -29,7 +29,7 @@ bot.on("message", async message => {
 });
 
 bot.on("guildMemberAdd", member => {
-    member.roles.add([`${process.env.JoinRoleOne}`, `${process.env.JoinRoleTwo}`]);
+    member.roles.add(["621026454586654760", "621026147282452501"]);
 });
 
 bot.login(process.env.token);
