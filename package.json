@@ -1,7 +1,7 @@
 {
   "name": "dangerous",
   "version": "1.0.0",
-  "description": "Dangerous bot special for Dangerous Discord-server",
+  "description": "Dangerous bot by LWJerri",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
