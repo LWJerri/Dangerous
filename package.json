@@ -1,6 +1,6 @@
 {
   "name": "dangerous",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dangerous bot by LWJerri",
   "main": "app.js",
   "scripts": {
