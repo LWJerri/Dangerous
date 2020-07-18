@@ -2,9 +2,9 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 
 bot.on("ready", () => {
-    const guild = bot.guilds.cache.get(process.env.guildID);
+    const guild = bot.guilds.cache.get(process.env.MainGuildID);
     
-    let readyMessage = process.env.startMessage
+    let readyMessage = process.env.StartBotMessage
         .replace(`$0`, bot.user.username)
         .replace(`$1`, bot.guilds.cache.size)
         .replace(`$2`, bot.users.cache.size)
@@ -12,9 +12,9 @@ bot.on("ready", () => {
         .replace(`$4`, guild.name)
 
     console.log(readyMessage);
-    bot.user.setActivity(process.env.status, {"type": process.env.typeStatus});
+    bot.user.setActivity(process.env.BotStatus, {"type": process.env.TypeStatus});
         
-    if(process.env.setDefault){
+    if(process.env.SetGuild){
         bot.user.setAvatar(guild.iconURL());
         bot.user.setUsername(guild.name);
     }
@@ -22,14 +22,16 @@ bot.on("ready", () => {
 
 bot.on("message", async message => {
     if(message.author.bot) return;
-    if(message.channel.id === process.env.memesChat){
-        message.react(process.env.reactGood);
-        message.react(process.env.reactShit);
+    if(message.channel.type == "dm") return;
+
+    if(message.channel.id === process.env.MemeChatID){
+        message.react(process.env.ReactGood);
+        message.react(process.env.ReactShit);
     }
 });
 
 bot.on("guildMemberAdd", member => {
-    member.roles.add(["621026454586654760", "621026147282452501"]);
+    member.roles.add([`${process.env.RoleAddOne}`, `${process.env.RoleAddTwo}`]);
 });
 
-bot.login(process.env.token);
+bot.login(process.env.BotToken);
