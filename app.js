@@ -35,7 +35,7 @@ bot.on("message", async message => {
             message.react(process.env.ReactDOWN);
         }
     }else if(process.env.ColorReactions == "true"){
-        if(message.channel.id === process.env.MemeChatID){
+        if(message.channel.id === process.env.ColorChatID){
             message.react(process.env.ColorRed);
             message.react(process.env.ColorGreen);
             message.react(process.env.ColorBlue);
