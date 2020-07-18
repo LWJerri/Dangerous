@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
+require("dotenv").config()
 
 bot.on("ready", () => {
     const guild = bot.guilds.cache.get(process.env.MainGuildID);
