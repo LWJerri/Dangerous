@@ -1,1 +1,1 @@
-worker: node app-heroku.js
+worker: node app.js
