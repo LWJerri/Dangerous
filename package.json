@@ -1,25 +1,17 @@
 {
-  "name": "dangerous",
-  "version": "1.0.3",
-  "description": "Dangerous bot by LWJerri",
-  "main": "app.js",
+  "name": "freebot",
+  "version": "2.0.0",
+  "description": "FreeBot Discord bot by LWJerri for everyone!",
+  "main": "./src/run.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LWJerri/Dangerous.git"
+    "start": "node ./src/run.js",
+    "dev": "nodemon"
   },
   "author": "LWJerri",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LWJerri/Dangerous/issues"
-  },
-  "homepage": "https://github.com/LWJerri/Dangerous#readme",
+  "license": "MIT",
+  "url": "https://github.com/LWJerri/FreeBot",
   "dependencies": {
     "discord.js": "^12.2.0",
-    "dotenv": "^8.2.0",
     "nodemon": "^2.0.4"
   }
 }
