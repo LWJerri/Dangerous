@@ -15,8 +15,8 @@
 {5} - Return bot description (https://discord.com/developers/applications/)<br/>
 {6} - It's public bot? Return true or false (https://discord.com/developers/applications/)<br/>
 {7} - It's public bot? Return Yes or No (https://discord.com/developers/applications/)<br/>
-{8} - Return bot require Code Grant? Return true or false (https://discord.com/developers/applications/)<br/>
-{9} - Return bot require Code Grant? Return Yes or No (https://discord.com/developers/applications/)<br/>
+{8} - Require Code Grant? Return true or false (https://discord.com/developers/applications/)<br/>
+{9} - Require Code Grant? Return Yes or No (https://discord.com/developers/applications/)<br/>
 {10} - Return bot owner ID (https://discord.com/developers/applications/)<br/>
 {11} - Return bot owner username (https://discord.com/developers/applications/)<br/>
 {12} - Return bot owner discriminator (https://discord.com/developers/applications/)<br/>
@@ -39,8 +39,8 @@
 {5} - Return bot description (https://discord.com/developers/applications/)<br/>
 {6} - It's public bot? Return true or false (https://discord.com/developers/applications/)<br/>
 {7} - It's public bot? Return Yes or No (https://discord.com/developers/applications/)<br/>
-{8} - Return bot require Code Grant? Return true or false (https://discord.com/developers/applications/)<br/>
-{9} - Return bot require Code Grant? Return Yes or No (https://discord.com/developers/applications/)<br/>
+{8} - Require Code Grant? Return true or false (https://discord.com/developers/applications/)<br/>
+{9} - Require Code Grant? Return Yes or No (https://discord.com/developers/applications/)<br/>
 {10} - Return bot owner ID (https://discord.com/developers/applications/)<br/>
 {11} - Return bot owner username (https://discord.com/developers/applications/)<br/>
 {12} - Return bot owner discriminator (https://discord.com/developers/applications/)<br/>
