@@ -3,7 +3,7 @@ It's open-source Discord bot for fast configuration and run on Heroku or other h
 
 ## Installing
 * **IMPORTANT!** YOU MUST HAVE [**NODE.JS**](https://nodejs.org/en/) V12 OR HIGHT.
-* **IMPORTANT!** IF YOU NEED HOST **THIS** BOT ON [**HEROKU**](https://www.heroku.com/) WITH GITHUB, SEE THIS VIDEO: https://example.com
+* **IMPORTANT!** IF YOU NEED HOST **THIS** BOT ON [**HEROKU**](https://www.heroku.com/) WITH GITHUB, SEE THIS VIDEO: **Sooon...**
 
 1) Download this repository.
 2) Open project folder in console.
