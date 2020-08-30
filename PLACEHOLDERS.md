@@ -1,8 +1,8 @@
 <h1>LIST OF ALL PLACEHOLDERS FOR FREEBOT</h1>
 
 <p id="shardCreate.ConsoleShard"><a href="https://github.com/LWJerri/FreeBot/blob/master/PLACEHOLDERS.md#shardCreate.ConsoleShard">- shardCreate.ConsoleShard</a></p>
-{0} - Return current shard ID&nbsp;
-{1} - Return total shard numbers&nbsp;
+{0} - Return current shard ID<br/>
+{1} - Return total shard numbers<br/>
 
 <p id="botOn.WelcomeMessage.ConsoleMSG"><a href="https://github.com/LWJerri/FreeBot/blob/master/PLACEHOLDERS.md#botOn.WelcomeMessage.ConsoleMSG">- botOn.WelcomeMessage.ConsoleMSG</a></p>
 <code lang="js">
