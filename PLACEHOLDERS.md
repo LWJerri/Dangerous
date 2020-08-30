@@ -2,8 +2,8 @@
 
 <p id="shardCreate.ConsoleShard"><a href="https://github.com/LWJerri/FreeBot/blob/master/PLACEHOLDERS.md#shardCreate.ConsoleShard">- shardCreate.ConsoleShard</a></p>
 <code lang="js">
-{0} - Return current shard ID<br>
-{1} - Return total shard numbers<br>
+{0} - Return current shard ID&nbsp;
+{1} - Return total shard numbers&nbsp;
 </code>
 
 <p id="botOn.WelcomeMessage.ConsoleMSG"><a href="https://github.com/LWJerri/FreeBot/blob/master/PLACEHOLDERS.md#botOn.WelcomeMessage.ConsoleMSG">- botOn.WelcomeMessage.ConsoleMSG</a></p>
