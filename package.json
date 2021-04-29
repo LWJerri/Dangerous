@@ -10,9 +10,9 @@
     "engines": {
         "node": "12"
     },
+    "repository": "https://github.com/LWJerri/FreeBot",
     "author": "LWJerri (lwjerri.js.org)",
     "license": "MIT",
-    "url": "https://github.com/LWJerri/FreeBot",
     "dependencies": {
         "discord.js": "^12.5.3",
         "source-map-support": "^0.5.19"
