@@ -1,118 +1,118 @@
 {
-    "disableMentions": "",
-    "token": "",
-    "lang": "",
+  "disableMentions": "",
+  "token": "",
+  "lang": "",
 
-    "shardCreate": {
-        "enable": false,
-        "ConsoleShard": "",
-        "shardNumbers": ""
+  "shardCreate": {
+    "enable": false,
+    "ConsoleShard": "",
+    "shardNumbers": ""
+  },
+
+  "botOn": {
+    "enable": false,
+    "WelcomeMessage": {
+      "enable": false,
+      "ConsoleMSG": ""
     },
-
-    "botOn": {
-        "enable": false,
-        "WelcomeMessage": {
-            "enable": false,
-            "ConsoleMSG": ""
-        },
-        "botActivity": {
-            "enable": false,
-            "botMessage": "",
-            "botURL": "",
-            "botType": "",
-            "botStatus": ""
-        },
-        "botStats": {
-            "enable": false
-        }
+    "botActivity": {
+      "enable": false,
+      "botMessage": "",
+      "botURL": "",
+      "botType": "",
+      "botStatus": ""
     },
-
-    "userJoin": {
-        "enable": false,
-        "RoleGive": {
-            "enable": false,
-            "roles": [""]
-        },
-        "SendMessage": {
-            "enable": false,
-            "type": "",
-            "deleteMessage": false,
-            "timeDelete": "",
-            "message": "",
-            "EMBED": {
-                "Color": "",
-                "Title": "",
-                "URL": "",
-                "Author": {
-                    "name": "",
-                    "image": "",
-                    "URL": ""
-                },
-                "Description": "",
-                "ImageURLSmall": "",
-                "ImageURLBig": "",
-                "Fields": [{"name": "", "value": "", "inline": true}],
-                "Footer": {
-                    "name": "",
-                    "ImageURL": ""
-                }
-            }
-        },
-        "ServerMessage": {
-            "enable": false,
-            "channelID": "",
-            "type": "",
-            "deleteMessage": false,
-            "timeDelete": "",
-            "message": "",
-            "EMBED": {
-                "Color": "",
-                "Title": "",
-                "URL": "",
-                "Author": {
-                    "name": "",
-                    "image": "",
-                    "URL": ""
-                },
-                "Description": "",
-                "ImageURLSmall": "",
-                "ImageURLBig": "",
-                "Fields": [{"name": "", "value": "", "inline": true}],
-                "Footer": {
-                    "name": "",
-                    "ImageURL": ""
-                }
-            }
-        }
-    },
-
-    "userLeave": {
-        "enable": false,
-        "ServerMessage": {
-            "enable": false,
-            "channelID": "",
-            "type": "",
-            "deleteMessage": false,
-            "timeDelete": "",
-            "message": "",
-            "EMBED": {
-                "Color": "",
-                "Title": "",
-                "URL": "",
-                "Author": {
-                    "name": "",
-                    "image": "",
-                    "URL": ""
-                },
-                "Description": "",
-                "ImageURLSmall": "",
-                "ImageURLBig": "",
-                "Fields": [{"name": "", "value": "", "inline": true}],
-                "Footer": {
-                    "name": "",
-                    "ImageURL": ""
-                }
-            }
-        }
+    "botStats": {
+      "enable": false
     }
+  },
+
+  "userJoin": {
+    "enable": false,
+    "RoleGive": {
+      "enable": false,
+      "roles": [""]
+    },
+    "SendMessage": {
+      "enable": false,
+      "type": "",
+      "deleteMessage": false,
+      "timeDelete": "",
+      "message": "",
+      "EMBED": {
+        "Color": "",
+        "Title": "",
+        "URL": "",
+        "Author": {
+          "name": "",
+          "image": "",
+          "URL": ""
+        },
+        "Description": "",
+        "ImageURLSmall": "",
+        "ImageURLBig": "",
+        "Fields": [{ "name": "", "value": "", "inline": true }],
+        "Footer": {
+          "name": "",
+          "ImageURL": ""
+        }
+      }
+    },
+    "ServerMessage": {
+      "enable": false,
+      "channelID": "",
+      "type": "",
+      "deleteMessage": false,
+      "timeDelete": "",
+      "message": "",
+      "EMBED": {
+        "Color": "",
+        "Title": "",
+        "URL": "",
+        "Author": {
+          "name": "",
+          "image": "",
+          "URL": ""
+        },
+        "Description": "",
+        "ImageURLSmall": "",
+        "ImageURLBig": "",
+        "Fields": [{ "name": "", "value": "", "inline": true }],
+        "Footer": {
+          "name": "",
+          "ImageURL": ""
+        }
+      }
+    }
+  },
+
+  "userLeave": {
+    "enable": false,
+    "ServerMessage": {
+      "enable": false,
+      "channelID": "",
+      "type": "",
+      "deleteMessage": false,
+      "timeDelete": "",
+      "message": "",
+      "EMBED": {
+        "Color": "",
+        "Title": "",
+        "URL": "",
+        "Author": {
+          "name": "",
+          "image": "",
+          "URL": ""
+        },
+        "Description": "",
+        "ImageURLSmall": "",
+        "ImageURLBig": "",
+        "Fields": [{ "name": "", "value": "", "inline": true }],
+        "Footer": {
+          "name": "",
+          "ImageURL": ""
+        }
+      }
+    }
+  }
 }
